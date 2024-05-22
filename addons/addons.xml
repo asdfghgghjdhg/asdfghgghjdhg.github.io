@@ -44,7 +44,7 @@
 		<description lang="en_GB">Create your own plugin list</description>
 		<source>https://github.com/asdfghgghjdhg/plugin.program.pluginlist</source>
 	</extension>
-</addon><addon id="plugin.program.windowslauncher" name="Windows Links Launcher" version="1.0.0" provider-name="asdfghgghjdhg">
+</addon><addon id="plugin.program.windowslauncher" name="Windows Links Launcher" version="1.5.0" provider-name="asdfghgghjdhg">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.22.0" />
@@ -60,11 +60,12 @@
 		</assets>
 		<platform>windows</platform>
 		<license>GPL-2.0-or-later</license>
-		<summary lang="ru_RU" />
-		<summary lang="en_GB">Windows Game Launcher</summary>
-		<description lang="ru_RU">Allow to start Windows games directly from KODI. Just select source of Your Windows games link collection then Plugin find it all and scrape game info from Internet.
-Simply launch selected Game as usual.</description>
-		<description lang="en_GB" />
+		<summary lang="ru_RU">Запуск игр для Windows</summary>
+		<summary lang="en_GB">Windows Games Launcher</summary>
+		<description lang="ru_RU">Данное дополнение позволяет запускать Windows-игры непосредственно из KODI. Просто выберите источник коллекции ярлыков ваших игр и KODI найдет их и получит их описание из сети Интернет.
+Запускайте ваши любимые игры как обычный фильм или видео.</description>
+		<description lang="en_GB">This Plugin allows to start Windows games directly from KODI. Just select source of Your Windows games link collection then Plugin find it all and scrape game info from Internet.
+Simply launch favorite Game as usual video or movie.</description>
 		<source>https://github.com/asdfghgghjdhg/plugin.program.windowslauncher</source>
 		<email>asdfghgghjdhg@gmail.com</email>
 	</extension>
